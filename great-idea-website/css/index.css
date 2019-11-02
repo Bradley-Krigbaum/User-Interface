@@ -65,9 +65,49 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.body-container {
+	/* margin-top: 1%;
+	margin-right: 80%;
+	margin-left: 5%; */
+	margin: auto;
+	width: 1000px;
+	font-size: 15px;
+}
+
+.content-container {
+	padding-top: 5%;
+	padding-bottom: 2%;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+div.navi-bar nav ul {
+	display: inline-block;
+	color: lightgrey;
+	font-size: 15px;
+	padding-top: 3%;
+	width: 80%;
+	word-spacing: 75px;
+
+}
+
+.logo {
+	position: absolute;
+	right: 21%;
+	padding-top: 1%;
+	vertical-align: top;
+}
+
+.featured-content img {
+	position: relative;
+	padding-top: 3%;
+	padding-left: 45%;
+}
+
+
 
 footer p {
 	text-align: center;
-	padding-bottom: 6.5%;
 	padding-top: 2%;
+	padding-bottom: 6.5%;
 }
