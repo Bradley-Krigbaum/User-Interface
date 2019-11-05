@@ -66,62 +66,87 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .body-container {
-	/* margin-top: 1%;
-	margin-right: 80%;
-	margin-left: 5%; */
 	margin: auto;
-	width: 55%;
+	width: 50%;
 	font-size: 15px;
 }
 
 .content-container {
-	padding-top: 5%;
+	padding-top: 3%;
 	padding-bottom: 2%;
 	border-top: 1px solid #000000;
 	border-bottom: 1px solid #000000;
 }
 
-div.navi-bar nav ul {
+.navi-bar nav ul {
 	display: inline-block;
-	color: lightgrey;
-	font-size: 15px;
+	color: lightgray;
+	font-size: 14px;
 	padding-top: 3%;
 	width: 85%;
-	word-spacing: 75px;
+	word-spacing: 55px;
 
 }
 
 .logo {
 	position: absolute;
-	right: 350px;
-	padding-top: 1%;
-	vertical-align: top;
+	padding-top: 0.8%;
+	margin-left: 39%;
 }
 
 .featured-content img {
 	position: absolute;
-	right: 300px;
-	padding: 4%;
+	margin: 1% 25% 0px 26%;
+	width: 400px;
 }
 
 .featured-content h1 {
+	box-sizing: content-box;
 	font-size: 64px;
-	padding: 10%;
-	width: 25px;
+	padding: 9% 3% 0px;
+	margin: 5% 0px 7% 5%;
+	height: 125px;
+	width: 250px;
+	text-align: center;
+}
+
+.featured-content p {
+	margin: 9% 0px 20% 15%;
+	box-sizing: border-box;
+	border: 1px solid;
+	padding: 2px 3% 5px;
+	width: 130px;
 }
 
 .column-1 {
 	columns: 2;
+	font-size: 15px;
 }
 
-.second-image {
+.middle-img {
+	display: inline-block;
 	padding: 5% 0px 5%;
+	width: 840px;
 }
 
+.column-2 {
+	columns: 3;
+	font-size: 15px;
+	margin-bottom: 3%;
+}
+.contact {
+	margin-top: 4%;
+}
+.contact li {
+	width: 20%;
+	margin: 15px 0px 15px;
+	list-style-type: none;
+}
 
 
 footer p {
 	text-align: center;
 	padding-top: 2%;
 	padding-bottom: 6.5%;
+	font-size: 14px;
 }
