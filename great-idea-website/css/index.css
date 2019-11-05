@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 	margin-right: 80%;
 	margin-left: 5%; */
 	margin: auto;
-	width: 1000px;
+	width: 55%;
 	font-size: 15px;
 }
 
@@ -86,22 +86,36 @@ div.navi-bar nav ul {
 	color: lightgrey;
 	font-size: 15px;
 	padding-top: 3%;
-	width: 80%;
+	width: 85%;
 	word-spacing: 75px;
 
 }
 
 .logo {
 	position: absolute;
-	right: 21%;
+	right: 350px;
 	padding-top: 1%;
 	vertical-align: top;
 }
 
 .featured-content img {
-	position: relative;
-	padding-top: 3%;
-	padding-left: 45%;
+	position: absolute;
+	right: 300px;
+	padding: 4%;
+}
+
+.featured-content h1 {
+	font-size: 64px;
+	padding: 10%;
+	width: 25px;
+}
+
+.column-1 {
+	columns: 2;
+}
+
+.second-image {
+	padding: 5% 0px 5%;
 }
 
 
