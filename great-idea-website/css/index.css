@@ -64,15 +64,18 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+
 
 .body-container {
+	font-family: 'Fira Code', monospace;
 	margin: auto;
 	width: 50%;
 	font-size: 15px;
 }
 
 .content-container {
-	padding-top: 3%;
+	padding-top: 3.5%;
 	padding-bottom: 2%;
 	border-top: 1px solid #000000;
 	border-bottom: 1px solid #000000;
@@ -87,24 +90,34 @@ h1, h2, h3, h4, h5 {
 	margin-left: 39%;
 }
 
+a {
+	color: gray;
+	text-decoration: none;
+	padding: 3% 5% 3%;
+	padding-left: 0%;
+}
+
 .navi-bar nav ul {
+	display: inline-block;
 	overflow: hidden;
 	position: fixed;
 	top: 0;
 	background-color: #fff;
-	padding: 1.5% 0% 1.5%;
-	border-bottom: 2px solid #000;
-	display: inline-block;
+	padding: 1.8% 0% 1.5%;
+	border-bottom: 1px solid #333;
 	color: lightgray;
-	font-size: 14px;
+	font-size: 12px;
 	width: 840px;
-	word-spacing: 55px;
+}
+
+.navi-bar a:hover {
+	color: crimson;
 }
 
 .featured-content {
 	width: 100%;
 	margin: auto;
-	padding-bottom: 5%;
+	padding-bottom: 4%;
 	columns: 2;
 }
 
